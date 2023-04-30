@@ -1,0 +1,185 @@
+/* Global Styles */
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    padding-bottom: 50px; /* Add some space at the bottom of the page */
+  }
+
+  html, body {
+    min-height: 100%; /* Ensure that the html and body elements take up the full height of the viewport */
+  }
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    margin-bottom: 100px; /* Set the margin to the height of the footer */
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
+    color: #2E7D32;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  /* Links */
+  a {
+    color: #2E7D32;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1B5E20;
+  }
+  
+  /* Form */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2E7D32;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1B5E20;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px; /* add margin-bottom to create spacing */
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+    word-wrap: break-word;
+    width: 20%;
+  }
+  
+  th {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+  }
+  
+  /* Alerts */
+  .alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .alert-success {
+    background-color: #D0ECE7;
+    color: #2E7D32;
+  }
+  
+  .alert-danger {
+    background-color: #FFD1D1;
+    color: #C62828;
+  }
+  
+  .alert-warning {
+    background-color: #FFF9C4;
+    color: #F57F17;
+  }
+  
+  .alert-info {
+    background-color: #E3F2FD;
+    color: #1565C0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+  }
+  
